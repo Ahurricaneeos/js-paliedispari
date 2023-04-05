@@ -5,6 +5,11 @@ let userNumber = validateInputNumber(userChoiceNumber);
 let computerChoice = randomNumberGenerator();
 let sumNumber = evenOddNumbersSum(userNumber, computerChoice);
 
+if(sumNumber == userChoiceEvenOdd) {
+    console.log("Hai vinto!");
+} else {
+    console.log("Hai perso!");
+}
 
 // funzioni
 
